@@ -1,0 +1,392 @@
+﻿body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+.nav.section {
+    margin-top: 0;
+}
+.section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 9%;
+}
+
+.contact .section {
+    margin-left: 10%;
+    /* margin: 0; */
+    display: inline-block;
+    width: 70%;
+}
+
+table.section {
+    margin-top: 5%;
+}
+
+.nav th {
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav th a {
+    color: black;
+    margin-left: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+.nav a {
+    color: #453b3b;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+li:last-child {
+    margin-right: 80px;
+}
+
+.nav li:hover {
+    cursor: pointer;
+}
+
+.nav img.logo {
+    vertical-align: middle;
+    margin-right: 7px;
+    width: 45px;
+    height: 45px;
+}
+
+.nav tr {
+    vertical-align: sub;
+}
+
+.nav li img {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+.header .leftArea table {
+    margin-right: 20%;
+}
+
+.leftArea h1 {
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.rightArea img {
+    height: 400px;
+    vertical-align: text-bottom;
+}
+
+.leftArea p {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 45px;
+}
+
+.shopb {
+    background-color: #fd581a;
+    margin-right: 30px;
+}
+
+.buttons button {
+    padding: 10px 40px;
+    color: white;
+    font-size: 25px;
+    border: 1px solid transparent;
+}
+
+.buttons button:hover {
+    background: white;
+    color: black;
+    border: 1px solid;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.services .btn {
+    margin-top: 70px;
+}
+
+.contactb {
+    background: black;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+.sectionHeader p {
+    font-size: 25px;
+}
+
+.sectionHeader h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.services div {
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    width: 85%;
+    padding: 80px 20px 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.services div:hover {
+    border-top: 6px solid coral;
+    padding-top: 75px;
+}
+
+.services h3 {
+    color: coral;
+    font-size: 30px;
+    margin: 40px auto;
+}
+
+.services p {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.rightArea {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 25px;
+}
+
+.followUsForm input[type='submit']:hover {
+    background: white;
+}
+
+.fruits .btn {
+    background: black;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.services {
+    text-align: center;
+}
+
+.services img {
+    width: 80px;
+    height: 80px;
+}
+
+.fruits h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.fruits div {
+    width: 77%;
+}
+
+.fruits p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+td.img {
+    text-align: center;
+}
+
+td.img img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.backgroundImg {
+    background: url(./images/tasty.png) no-repeat top center;
+    height: 650px;
+    text-align: center;
+}
+.section.backgroundImg {
+    width: 100%;
+}
+
+.backgroundImg h2 {
+    color: white;
+    font-size: 140px;
+    font-weight: 900;
+    padding-top: 13%;
+}
+
+.testimonial {
+    margin-top: 6%;
+
+    text-align: center;
+}
+
+.testimonial img {
+    width: 500px;
+}
+.testimonial h2 {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.testimonial p {
+    line-height: 1.9;
+}
+
+.form {display: inline-block;width: 70%;}
+
+.form h2 {
+    font-size: 45px;
+    margin-bottom: 65px;
+}
+.form .img {
+}
+.form input {display: block;background: transparent;border: none;border-bottom: 1px solid black;font-size: 25px;margin-bottom: 50px;width: 100%;outline: none;}
+.form input[name="Message"] {margin: 110px 0 90px;}
+
+
+.contact .img {
+    display: inline-block;
+    width: 376px;
+    text-align: right;
+}
+
+.contact .img img {
+}
+
+.form input[type='submit']{
+    display: inline-block;
+    border: 1px solid transparent;
+    background: coral;
+    width: 160px;
+}
+
+.form input[type='submit']:hover {
+    background: white;
+}
+
+.menu{
+
+width: 40%;
+}
+
+.menu h2{
+    margin-bottom: 25px;
+}
+
+.menu p{
+    font-size: 18px;
+}
+
+.menu.followUs{
+    width: 100%;
+    margin-bottom: 39px;
+}
+.followUs img{
+    margin-right: 5px;
+    width: 35px;
+}
+
+.footer td{
+    width: 25%;
+}
+.followUsForm{}
+
+.followUsForm h3{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.followUsForm input{
+    font-size: 23px;
+    display: block;
+    outline: none;
+}
+.followUsForm input[type='mail']{
+    margin: 10px 0;
+    width: 60%;
+}
+.followUsForm input[type='submit']{
+    font-size: 16px;
+    background: coral;
+    padding: 10px 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyRight p {
+    font-size: 18px;
+    text-align: center;
+    padding-block: 20px;
+    margin-top: 7%;
+    background: #edeeeb;
+}
+
+.home .nav li:nth-child(1) a{
+    color: coral;
+    font-weight: bold;
+}
+
+.fruitsPage .nav li:nth-child(2) a{
+    color: coral;
+    font-weight: bold;
+}
+.servicesPage .nav li:nth-child(3) a{
+    color: coral;
+    font-weight: bold;
+}
+.contactUs .nav li:nth-child(4) a{
+    color: coral;
+    font-weight: bold;
+}
+
+
+.footer {
+    margin-top: 200px;
+}
